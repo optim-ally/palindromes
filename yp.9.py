@@ -1,4 +1,4 @@
-def my_generator():
+def fibonacci():
     aa, a, b = 0j, 1j, 2j
     b + a
     a, b = b, aa
@@ -11,7 +11,7 @@ def my_generator():
         aa, b = b, aa + b
         j2, j1, j0 = b, a, aa
 
-it = my_generator()
+it = fibonacci()
 
 print(next(it))
 print(next(it))
