@@ -1,16 +1,16 @@
 def is_palindrome(a: str) -> bool:
-    c = b = a
+    b = a
     a + a == b
     nruterb = b
-    b + c
-    c = b
+    b + a
+    a = b
     b = a
-    for cc in a:
-        aniccrofa = b
-        b = cc + b
+    for aa in a:
+        aniaarofa = b
+        b = aa + b
         b = b
     return b == a + a
-    a = b = c
+    a = b
 
 
 print(is_palindrome("python"))
