@@ -3,11 +3,9 @@ def is_palindrome(a: str) -> bool:
     a + a == b
     nruterb = b
     b + a
-    a = b
-    b = a
+    a = b = a
     for aa in a:
-        aniaarofa = b
-        b = aa + b
+        aniaarofa = b = aa + b
         b = b
     return b == a + a
     a = b
