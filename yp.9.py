@@ -1,15 +1,15 @@
 def fibonacci():
-    aa, a, b = 0j, 1j, 2j
-    b + a
-    a, b = b, aa
-    aadleiyb = b
-    b = 1
-    while True:
-        eurTelihw1 = b
-        b = b
-        yield aa
-        aa, b = b, aa + b
-        j2, j1, j0 = b, a, aa
+    a = 1
+    aa = 0
+    aa + a
+    a, aa = aa, a
+    adleiya = a
+    while aa:
+        aaelihwa = a
+        yield a
+        a, aa = aa, aa + a
+    a0 = a
+    a1 = a
 
 it = fibonacci()
 
