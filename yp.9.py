@@ -2,12 +2,12 @@ def fibonacci():
     a = 1
     aa = 0
     aa + a
-    a, aa = aa, a
-    adleiya = a
-    while aa:
-        aaelihwa = a
-        yield a
-        a, aa = aa, aa + a
+    a, a = a, a
+    aaadleiya = a
+    while a:
+        aelihwa = a
+        yield aa
+        aa, a = a, aa + a
     a0 = a
     a1 = a
 
